@@ -1,0 +1,28 @@
+{
+  "name": "query-plan",
+  "version": "1.0.0",
+  "description": "Query Optimizer",
+  "main": "index.js",
+  "author": "David Browaeys",
+  "repository": "https://github.com/davidbrowaeys/query-plan",
+  "bugs": {
+    "url": "https://github.com/davidbrowaeys/query-plan/issues"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "release": "np"
+  },
+  "keywords": [
+    "force.com",
+    "salesforce",
+    "salesforce-dx",
+    "salesforcedx",
+    "sfdx"
+  ],
+  "dependencies": {
+    "salesforce-alm": "^40.0.6",
+    "cli-table": "^0.3.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {}
+}
